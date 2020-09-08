@@ -53,7 +53,7 @@ BHH2HS
 Generating a unique random list of 20 x 32 bit **numbers** strings:
 
 ```
-~/python-unique-random-listspython random-lists.py --count 20 --length 32 --uppercase n --lowercase n --numbers y
+~/python-unique-random-lists$ python random-lists.py --count 20 --length 32 --uppercase n --lowercase n --numbers y
 27756443649597453186159388159992
 91178778433790435326680545156246
 42715778602980314223648153053500
@@ -74,4 +74,20 @@ Generating a unique random list of 20 x 32 bit **numbers** strings:
 02355145364609947747876222501697
 15716518520013563691211846308614
 52587265736309625531942623281463
+```
+
+Generating a **large** unique random list of 10000 x 64 bit alphanumber strings:
+
+```
+~/python-unique-random-lists$ python random-lists.py --count 100 --length 64 --uppercase y --lowercase y --numbers y
+F3wqh1dhCAd3yaSJ3PtHHZTQUUPgRAA5YFe7U4C36uNSPyqlXwdO6S1LbuRJ2cr9
+h3wY92PAcO1XwIG7yNrNijmmqUytcfYWfL8cdxBJnunF1a9esfci6xIcfO6E1oDv
+JOuazuaIfpHQ04TwZyIHGH2oIs0Dl1o6dGSChMimemfoHq7qxyYGEXAJ3kI4rvXr
+AZUqNStHRYq9nL2wm1rLo0gNGtyWYzKcyNFSLrOmHzwzr21oCIjzogOq9i9RIDYG
+[...]
+mULXcMIBU2H22WDWeqMZPvBo9modUNNLlmN3q2oWLA224RoKQ8LyKyOJgWs2wFOB
+jJP4YTUvveRs9gcTSj4mT35NAb8TbQT4pz7dfYyC4Dteiqd6tpyTQCBk5b0ulHJN
+yJS8IY9X7PgVgW9kFzUjs1dJYoQB8GQ3Z1rEzbanskETAdMHWWFXzmEZmFxTMXRD
+DVhhICjVuTZxaAgYYyeCfNy6lGtbVZK7Lf1j51nnQdfLWq9GZhGajcvsl2cLoKk2
+1OMo5cA5iSwwQklFewdE2qcGWDyDx3hTmsTgNQCYTEyW8yzTqUnUAboqtMCGjjPv
 ```
