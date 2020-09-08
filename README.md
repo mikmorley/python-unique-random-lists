@@ -91,3 +91,20 @@ yJS8IY9X7PgVgW9kFzUjs1dJYoQB8GQ3Z1rEzbanskETAdMHWWFXzmEZmFxTMXRD
 DVhhICjVuTZxaAgYYyeCfNy6lGtbVZK7Lf1j51nnQdfLWq9GZhGajcvsl2cLoKk2
 1OMo5cA5iSwwQklFewdE2qcGWDyDx3hTmsTgNQCYTEyW8yzTqUnUAboqtMCGjjPv
 ```
+
+**Note:** This function will **only** output unique numbers in an array, for example, if you try to generate 200 unique numbers, and you only define a length of 1 bit, you will only be provided with a list of **available** unique numbers:
+
+```
+$ python random-lists.py --count 200 --length 1 --uppercase n --lowercase n --numbers y
+2
+6
+0
+4
+8
+5
+9
+7
+1
+3
+```
+
